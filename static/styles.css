@@ -1,0 +1,66 @@
+#body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .form-container{
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+  }
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="password"],
+  .form-container input[type="number"],
+  .form-container input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .form-container input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .form-container input[type="button"] {
+    background-color: #26a1d1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .form-container input[type="submit"]:hover{
+    background-color: rgb(53, 235, 72);
+  }
+  
+  .form-container input[type="button"]:hover{
+    background-color: #0da9e7;
+  }
+
+ 
+  /* Center the loading spinner */
+#loadingSpinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 10000; /* Ensure the spinner is on top of the overlay */
+}  
